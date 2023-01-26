@@ -57,6 +57,9 @@ return packer.startup(function(use)
 		},
 	})
 
+	-- indent blankline
+	use("lukas-reineke/indent-blankline.nvim")
+
 	-- packer can manage itself
 	use("wbthomason/packer.nvim")
 
