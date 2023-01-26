@@ -9,7 +9,7 @@ opt.expandtab = true
 opt.autoindent = true
 
 -- line wrapping
-opt.wrap = false
+opt.wrap = true
 
 -- search settings
 opt.ignorecase = true
@@ -24,13 +24,13 @@ opt.background = "dark"
 opt.signcolumn = "yes"
 
 -- backspace
-opt.backspace = 'indent,eol,start'
+opt.backspace = "indent,eol,start"
 
---clipboard 
-opt.clipboard:append('unnamedplus')
+--clipboard
+opt.clipboard:append("unnamedplus")
 
 --split windows
 opt.splitright = true
 opt.splitbelow = true
 
-opt.iskeyword:append('-')
+opt.iskeyword:append("-")
