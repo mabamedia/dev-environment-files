@@ -28,6 +28,10 @@ end
 
 -- add list of plugins to install
 return packer.startup(function(use)
+	-- barbar
+	use("nvim-tree/nvim-web-devicons")
+	use({ "romgrk/barbar.nvim", wants = "nvim-web-devicons" })
+
 	-- noice
 	use({
 		"folke/noice.nvim",
